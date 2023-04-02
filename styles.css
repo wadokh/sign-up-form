@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('norse-bold/norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    left: 0;
+    height: 1.5rem;
+    padding: 0;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+body{
+    display: flex;
+    margin: 0;
+}
+.bg-image{
+    background-image: url('images/photo-1585202900225-6d3ac20a6962.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.left{
+    height: 100vh;
+    flex-grow: 1;
+}
+.right{
+    height: 100vh;
+    flex-grow: 2;
+}
+
+.strip{
+    background-color: rgba(129, 128, 128, 0.5);
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.strip>img{
+    object-fit: contain;
+    height: 100%;
+}
+.name-text{
+    font-family: norsebold;
+    font-size: 10vh;
+    color: antiquewhite;
+}
+.header{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    width: 100%;
+}
