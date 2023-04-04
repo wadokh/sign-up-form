@@ -34,6 +34,14 @@ body{
 .right{
     height: 100vh;
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.right > div{
+    flex: 1;
+}
+.header, .signin{
+    background-color: rgb(249, 250, 251,255);
 }
 
 .strip{
@@ -56,11 +64,14 @@ body{
 .name-text{
     font-family: norsebold;
     font-size: 10vh;
-    color: antiquewhite;
+    color: white;
 }
 .header{
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
     width: 100%;
+}
+.intriduction{
+    word-wrap: break-word;
 }
