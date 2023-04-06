@@ -8,22 +8,60 @@
     <title>sign up form</title>
 </head>
 <body>
-    <div class="bg-image left">
-        <div class="strip">
-            <img src="images/odin-lined.png" alt="odin-logo">
-            <div class="name-text">ODIN</div>
+    <div class="container">
+        <div class="bg-image left">
+            <div class="strip">
+                <img src="images/odin-lined.png" alt="odin-logo">
+                <div class="name-text">ODIN</div>
+            </div>
+            <div class="footer">Photo by Halie West on Unsplash</div>
         </div>
-        <div class="footer">Photo by Halie West on Unsplash</div>
-    </div>
-    <div class="right">
-        <div class="header">
-            <!-- <div class="introduction">This is not a real online service! 
-            You know you need something like this in your life to help you realize your deepest dreams. 
-            Sign up now to get started
-            </div> -->
-    </div>
-        <div class="mid"></div>
-        <div class="signin"></div>
+        <div class="right">
+            <div class="header">
+                <div class="introduction">This is not a real online service!
+                You know you need something like this in your life to help you realize your deepest dreams. <br>
+                Sign up <span class="italic">now</span> to get started.
+                </div>
+                <div class="introduction">You <span class="italic">know</span> you want to.</div>
+        </div>
+            <div class="mid"><div class="fontnineteen">Let's do this!</div>
+                <form action="">
+                    <div class="biggest-container">
+                        <div class="big-container">
+                            <div class="small-container">
+                                <label for="fname">FIRST NAME</label>
+                                <input type="text" name="fname" id="fname">
+                            </div>
+                            <div class="small-container">
+                                <label for="lname">LAST NAME</label>
+                                <input type="text" name="lname" id="lname">
+                            </div>
+                        </div>
+                        <div class="big-container">
+                            <div class="small-container">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="small-container">
+                                <label for="phonenumber">PHONE NUMBER</label>
+                                <input type="tel" name="phonenumber" id="phonenumber">
+                            </div>
+                        </div>
+                        <div class="big-container">
+                            <div class="small-container">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="small-container">
+                                <label for="confirmpassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmpassword" id="confirmpassword">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="signin"></div>
+        </div>
     </div>
 </body>
 </html>
